@@ -15,6 +15,16 @@ public class StringComparison
 		
 		String a = new String("abcdefg");
 		String s = new String("abcdefg");
+		System.out.println(a);
+		System.out.println(s);
+		System.out.println("a == s \t\t " +  (a == s));
+		System.out.println("a.equals(s) \t " +  a.equals(s));
+		drawLine();
+		
+		
+		
+		
+		
 		
 		
 		
