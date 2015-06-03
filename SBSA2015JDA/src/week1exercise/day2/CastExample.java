@@ -1,6 +1,8 @@
 
 package week1exercise.day2;
 
+
+
 public class CastExample
 {
 
