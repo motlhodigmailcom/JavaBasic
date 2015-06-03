@@ -14,5 +14,4 @@ public class TestBlockScope
 
 		System.out.println("b= " + b); // this line causes a compiler error
 	}
-
 }
