@@ -1,6 +1,7 @@
 package week1exercise.day2;
 
 import java.util.*;
+
 import javax.mail.*;
 import javax.mail.internet.*;
 import javax.activation.*;
@@ -35,7 +36,7 @@ public class SendMail
 
       // Get the default Session object.
       Session session = Session.getDefaultInstance(properties, new GMailAuthenticator("motlhodi@gmail.com", "mymail2014" ));
-
+      
       try{
          // Create a default MimeMessage object.
          MimeMessage message = new MimeMessage(session);
