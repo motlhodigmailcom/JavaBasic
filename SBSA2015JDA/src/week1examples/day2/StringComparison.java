@@ -20,18 +20,6 @@ public class StringComparison
 		System.out.println("a == s \t\t " +  (a == s));
 		System.out.println("a.equals(s) \t " +  a.equals(s));
 		drawLine();
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		 
-
 	}
 	
 	public static void drawLine()
