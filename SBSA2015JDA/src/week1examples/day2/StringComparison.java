@@ -1,5 +1,6 @@
 package week1examples.day2;
 
+
 public class StringComparison
 {
 
@@ -9,6 +10,7 @@ public class StringComparison
 		String w = "abcdefg";
 		System.out.println(q);
 		System.out.println(w);
+		System.out.println(q.indexOf("x"));
 		System.out.println("q == w \t\t " +  (q == w));
 		System.out.println("q.equals(w) \t " +  q.equals(w));
 		drawLine();
@@ -20,10 +22,6 @@ public class StringComparison
 		System.out.println("a == s \t\t " +  (a == s));
 		System.out.println("a.equals(s) \t " +  a.equals(s));
 		drawLine();
-		
-		
-		int intVal = 109;
-		char charVal = (char) intVal;
 		
 	}
 	
