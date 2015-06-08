@@ -23,7 +23,5 @@ public class ConvertStringToPrimitiveType
 		System.out.println(doubleDiameter);		
 		doubleDiameter *= 3;
 	    System.out.println(doubleDiameter);
-	    
-		//String strSalary = "3456.78";
 	}
 }
