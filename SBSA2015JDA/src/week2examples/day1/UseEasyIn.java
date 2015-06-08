@@ -13,14 +13,11 @@ public class UseEasyIn
 		double inputSalary; // the salary input variable by the user
 		String inputName;   // the name input variable by the user
 		
-		
-		
-		//System.out.println("Please enter your age in year and press enter");
-		System.out.println("Please enter your age in year and press enter");
+		System.out.print("Please enter your age in year and press ENTER : ");
 		inputAge = mEasyInClass.readInt();
-		System.out.println("Please enter your salary, and press enter");
+		System.out.print("Please enter your salary, and press ENTER : ");
 		inputSalary = mEasyInClass.readDouble();
-		System.out.println("Please enter your name and press enter");
+		System.out.print("Please enter your name and press ENTER : ");
 		inputName = mEasyInClass.readString();
 		
 		System.out.println("Thank you. You are " + inputAge + " years old!");
