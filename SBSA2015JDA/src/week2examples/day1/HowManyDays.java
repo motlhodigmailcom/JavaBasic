@@ -1,7 +1,5 @@
 package week2examples.day1;
 
-import java.util.Date;
-
 public class HowManyDays
 {
 	public static void main(String[] args)
