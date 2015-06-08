@@ -1,10 +1,7 @@
 package week2examples.day1;
 
-import java.io.Console;
 import java.text.DecimalFormat;
-
 import easyin.EasyInClass;
-//import java.util.Scanner;
 
 public class UseEasyIn
 {

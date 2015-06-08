@@ -1,5 +1,4 @@
 package week2examples.day1;
-import easyin.EasyInClass;
 
 import java.text.DecimalFormat;
 import java.util.Scanner;
