@@ -1,7 +1,6 @@
 package week2examples.day1;
 
 import java.text.DecimalFormat;
-import java.util.Scanner;
 
 public class UseConsoleClass
 {
@@ -25,8 +24,5 @@ public class UseConsoleClass
 		System.out.println("Your name is "       + inputName);
 		
 		System.out.println("---- Using System.console() class ----");
-		
-
 	}
-
 }
