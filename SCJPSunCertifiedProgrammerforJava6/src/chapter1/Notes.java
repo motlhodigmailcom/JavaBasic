@@ -39,11 +39,12 @@ public class Notes
 {
 	public static void main(String[] args)
 	{
-		String name = "Yes";
+		String name = "one";
 		int rate = 0;
 		
 		switch(name)
 		{
+		
 		
 		
 		}		
