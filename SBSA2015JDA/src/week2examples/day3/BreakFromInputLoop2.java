@@ -29,7 +29,6 @@ public class BreakFromInputLoop2
 		}
 		
 		//mScanner.close();
-		
 		System.out.print("Name : " + name + "\t age : " + age);
 	}
 }
