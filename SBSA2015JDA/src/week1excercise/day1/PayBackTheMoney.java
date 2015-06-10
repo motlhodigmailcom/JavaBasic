@@ -11,5 +11,4 @@ public class PayBackTheMoney
 		System.out.format("The num of papers is %d and the number of pens are %d. The price is %.2f", num_of_papers, num_of_pens, price);
 
 	}
-
 }
