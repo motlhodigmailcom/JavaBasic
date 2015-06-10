@@ -38,16 +38,13 @@ package chapter1;
 public class Notes
 {
 	public static void main(String[] args)
-	{
-		String name = "one";
-		int rate = 0;
+	{	
+		int i;
 		
-		switch(name)
+		for (i= 0 ; i< 5 ; i++)
 		{
+			System.out.println(i);
+		}
 		
-		
-		
-		}		
 	}
-
 }
