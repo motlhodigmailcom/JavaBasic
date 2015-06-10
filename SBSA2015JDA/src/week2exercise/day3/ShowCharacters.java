@@ -1,0 +1,15 @@
+package week2exercise.day3;
+
+public class ShowCharacters
+{
+
+	public static void main(String[] args)
+	{
+		String strWorld = "Java";
+		
+		for (int i = 0; i < strWorld.length(); i++)
+		{
+			System.out.println(strWorld.charAt(i));
+		}
+	}
+}
