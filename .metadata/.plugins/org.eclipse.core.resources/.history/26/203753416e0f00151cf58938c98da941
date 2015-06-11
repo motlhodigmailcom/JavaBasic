@@ -1,0 +1,12 @@
+package week2exercise.day3;
+
+public class SpaceString
+{
+
+	public static void main(String[] args)
+	{
+		// TODO Auto-generated method stub
+
+	}
+
+}

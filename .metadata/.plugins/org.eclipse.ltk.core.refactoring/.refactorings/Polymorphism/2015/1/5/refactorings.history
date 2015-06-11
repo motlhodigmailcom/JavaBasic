@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename method &apos;Circle.fetchRadius()&apos; to &apos;getRadius&apos;&#x0D;&#x0A;- Original project: &apos;Polymorphism&apos;&#x0D;&#x0A;- Original element: &apos;Circle.fetchRadius()&apos;&#x0D;&#x0A;- Renamed element: &apos;Circle.getRadius()&apos;&#x0D;&#x0A;- Update references to refactored element" delegate="false" deprecate="false" description="Rename method &apos;fetchRadius&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.method" input="/src&lt;{Circle.java[Circle~fetchRadius" name="getRadius" references="true" stamp="1422450851782" version="1.0"/>
+</session>

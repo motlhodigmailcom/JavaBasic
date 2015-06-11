@@ -1,0 +1,16 @@
+package week2exercise.day3;
+
+import java.util.Scanner;
+
+public class GiveMeChar
+{
+
+	public static void main(String[] args)
+	{
+		System.out.println("Please enter a whole number");
+		int myIntValue = new Scanner(System.in).nextInt();
+		System.out.println("The char value of " + myIntValue + " is " + (char) myIntValue);
+
+	}
+
+}

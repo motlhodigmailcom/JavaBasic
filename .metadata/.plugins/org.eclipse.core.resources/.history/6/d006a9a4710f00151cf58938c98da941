@@ -1,0 +1,14 @@
+package week2exercise.day3;
+
+public class Vegetables
+{
+
+	public static void main(String[] args)
+	{
+		double tomatoes_price, broccolies_price, spinach_price;
+		
+		
+
+	}
+
+}

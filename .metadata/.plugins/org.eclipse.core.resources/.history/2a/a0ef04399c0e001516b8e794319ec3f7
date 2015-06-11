@@ -1,0 +1,15 @@
+package week2examples.day2;
+
+import java.text.DecimalFormat; 
+
+public class DecimalFormatClassExample
+{
+	public static void main(String[] args)
+	{
+		DecimalFormat mDecimalFormat = new DecimalFormat("R ###,###.00"); /** DecimalFormat constructor 
+		                                                                  receives a format string */
+		double carPrice = 2333666.76;
+		
+		System.out.println("The formatted car price is now " + mDecimalFormat.format(carPrice)); //invoke the format method of the DecimalFormat class 
+	}
+}

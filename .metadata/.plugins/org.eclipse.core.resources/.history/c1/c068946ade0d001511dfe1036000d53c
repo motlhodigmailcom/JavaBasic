@@ -1,0 +1,18 @@
+package week2examples.day1;
+
+public class HowManyDays
+{
+
+	public static void main(String[] args)
+	{
+		String date1 = "20151031";
+		String date2 = "20151004";
+		
+		int numOfDays = Integer.parseInt(date1) - Integer.parseInt(date2);
+		
+		System.out.println(numOfDays);
+		
+
+	}
+
+}

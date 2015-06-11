@@ -1,0 +1,12 @@
+package week2examples.day1;
+
+public class UseScannerClass
+{
+
+	public static void main(String[] args)
+	{
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,12 @@
+package week2examples.day3;
+
+public class BreakFromInputLoop2
+{
+
+	public static void main(String[] args)
+	{
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,26 @@
+package week2exercise.day3;
+
+import java.util.Scanner;
+
+public class ConvertTo
+{
+
+	@SuppressWarnings("resource")
+	public static void main(String[] args)
+	{
+		System.out.println("Enter a number");
+		String strNumber = new Scanner(System.in).nextLine();
+		
+		strNumber += 1;
+		
+		System.out.println("The current value of strNumber is " + strNumber);
+		
+		
+		
+		
+		
+		
+
+	}
+
+}
