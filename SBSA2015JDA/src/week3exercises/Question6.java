@@ -1,10 +1,8 @@
 package week3exercises;
-
 import java.util.Scanner;
 
 public class Question6
 {
-
 	public static void main(String[] args)
 	{
 		Scanner mScanner = new Scanner(System.in);
@@ -12,7 +10,6 @@ public class Question6
 		int age;
 		double height, weight;
 		boolean flag = true;
-		
 		
 		System.out.println("Enter your name");
 		name = mScanner.nextLine();
@@ -26,8 +23,7 @@ public class Question6
 			height = mScanner.nextDouble();
 			
 			System.out.println("Enter weight");
-			weight = mScanner.nextDouble();
-			
+			weight = mScanner.nextDouble();		
 			
 			if(!((age > 21) && (age < 35)))
 			{
@@ -55,8 +51,6 @@ public class Question6
 			System.out.println("Enter your name");
 			name = mScanner.nextLine();
 		}
-		
 		mScanner.close();
 	}
-
 }
