@@ -14,11 +14,11 @@ public class Question3
 		int hours_worked = 0, hourly_rate = 20; 
 		String name = "";
 		
+		System.out.println("Enter your name");
+		name = mScanner.nextLine();
+		
 		while(!name.equalsIgnoreCase("stop"))
 		{
-			System.out.println("Enter your name");
-			name = mScanner.nextLine();
-			
 			System.out.println("Enter hours worked");
 			hours_worked = mScanner.nextInt();
 			
@@ -40,6 +40,9 @@ public class Question3
 			System.out.println("Deductions    : " + mDecimalFormat.format(deductions));
 			System.out.println("Net pay       : " + mDecimalFormat.format(net_pay));
 			System.out.println("=======================");
+			
+			System.out.println("Enter your name");
+			name = mScanner.nextLine();
 		}
 		mScanner.close();
 	}

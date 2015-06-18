@@ -56,8 +56,7 @@ public class Question6
 			name = mScanner.nextLine();
 		}
 		
-		
-
+		mScanner.close();
 	}
 
 }
