@@ -42,7 +42,7 @@ public class Question3
 			System.out.println("=======================");
 			
 			System.out.println("Enter your name");
-			name = mScanner.nextLine();
+			name = mScanner.next();
 		}
 		mScanner.close();
 	}

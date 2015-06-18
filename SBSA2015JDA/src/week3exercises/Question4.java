@@ -7,6 +7,7 @@ public class Question4
 
 	public static void main(String[] args)
 	{
+		String total_string = "";
 		Scanner mScanner = new Scanner(System.in);
 		int total = 0, number = 0;
 		
@@ -16,10 +17,12 @@ public class Question4
 		while(total <= 40 )
 		{
 			total += number;
-			System.out.print(number + "+");
+			total_string += (number + " + ");
+			//System.out.print(number + "+");
 			System.out.println("Enter a number");
 			number = mScanner.nextInt();
 		}
+		System.out.print(total_string);
 		mScanner.close();
 	}
 }
