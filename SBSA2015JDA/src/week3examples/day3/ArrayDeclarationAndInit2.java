@@ -9,12 +9,21 @@ public class ArrayDeclarationAndInit2
 
 		int[] trackTime = {345, 432, 655} ;
 
-		for(int i = 0; i < trackName.length; i++)
+		/*for(int i = 0; i < trackName.length; i++)
 		{
 			if(trackTime[i] > 400 && trackTime[i] < 500)
 			{
 				System.out.println(i + ".\tTrack name: " + trackName[i] + "\tTrack time:" + trackTime[i]);
 			}
+		}*/
+		
+		for(int time : trackTime)
+		{
+			if(time > 400 && time < 500)
+				System.out.println("Track time:" + time);
 		}
+		
+		for(String tempTrackname : trackName)
+			System.out.println(tempTrackname);
 	}
 }
