@@ -32,19 +32,7 @@ package chapter1;
  * data gets manipulated.
  * */
 
-//access modifiers, break, conditional operators, continue statement, if statement, import statement, logical expressions, loops(do while, while, for each , etc), operands. operators : equal, relational, logical, short circuit, bitwise, presedance, switch,   
-
-
 public class Notes
 {
-	public static void main(String[] args)
-	{	
-		int i;
-		
-		for (i= 0 ; i< 5 ; i++)
-		{
-			System.out.println(i);
-		}
-		
-	}
+
 }
