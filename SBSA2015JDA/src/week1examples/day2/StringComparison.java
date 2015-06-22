@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package week1examples.day2;
 
 
@@ -30,3 +31,37 @@ public class StringComparison
 		System.out.println("--------------------------------------");
 	}
 }
+=======
+package week1examples.day2;
+
+
+public class StringComparison
+{
+
+	public static void main(String[] args)
+	{
+		String q = "abcdefg";
+		String w = "abcdefg";
+		System.out.println(q);
+		System.out.println(w);
+		System.out.println(q.indexOf("x"));
+		System.out.println("q == w \t\t " +  (q == w));
+		System.out.println("q.equals(w) \t " +  q.equals(w));
+		drawLine();
+		
+		String a = new String("abcdefg");
+		String s = new String("abcdefg");
+		System.out.println(a);
+		System.out.println(s);
+		System.out.println("a == s \t\t " +  (a == s));
+		System.out.println("a.equals(s) \t " +  a.equals(s));
+		drawLine();
+		
+	}
+	
+	public static void drawLine()
+	{
+		System.out.println("--------------------------------------");
+	}
+}
+>>>>>>> a0d16c50b58db7fd4c91f21d228ec42f4562aaec

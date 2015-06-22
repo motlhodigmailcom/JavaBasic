@@ -1,0 +1,19 @@
+package week1examples.day2;
+
+public class StringComparison
+{
+
+	public static void main(String[] args)
+	{
+		String q = "abcdefg";
+		String w = "abcdefg";
+		System.out.println(q);
+		System.out.println(w);
+		System.out.println("q == w \t\t " +  (q == w));
+		System.out.println("q.equals(w) \t " +  q.equals(w));
+		
+		 
+
+	}
+
+}

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
@@ -5,3 +6,12 @@
 	<classpathentry kind="lib" path="C:/Users/student/Downloads/javamail-1.2/mail.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry kind="lib" path="C:/Users/student/Downloads/javamail-1.2/mail.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
+>>>>>>> a0d16c50b58db7fd4c91f21d228ec42f4562aaec

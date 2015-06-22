@@ -1,0 +1,24 @@
+package week2examples.day1;
+
+import easyin.EasyInClass;
+//import java.util.Scanner;
+
+public class UseEasyIn
+{
+	public static void main(String[] args)
+	{
+		//Scanner mScanner = new Scanner(System.in);
+		EasyInClass mEasyInClass = new EasyInClass();
+		int    inputAge;    // the age input variable by the user
+		double inputSalary; // the salary input variable by the user
+		String inputName;   // the name input variable by the user
+		
+		
+		
+		
+		
+	}
+	
+	
+	
+}

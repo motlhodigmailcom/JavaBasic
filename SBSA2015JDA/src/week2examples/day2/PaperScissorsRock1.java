@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package week2examples.day2;
 
 import java.util.Random;
@@ -54,4 +55,62 @@ public class PaperScissorsRock1
 			System.out.println("Illegal value entered");
 		}
 	}
+=======
+package week2examples.day2;
+
+import java.util.Random;
+import java.util.Scanner;
+
+public class PaperScissorsRock1
+{
+	@SuppressWarnings("resource")
+	public static void main(String[] args)
+	{
+		String[] option = {"Paper","Scissors","Rock"};
+		
+		System.out.println("Please enter an option \n 0 - Paper \n 1 - Scissors \n 2 - Rock");
+		int index = new Scanner(System.in).nextInt();
+		
+		Random mRandom = new Random();
+		
+		int computerOption = mRandom.nextInt(3);
+		
+		System.out.println(computerOption);
+		
+		if(index == computerOption)
+		{
+			System.out.println("You : " + option[index] + " beats : " + option[computerOption]);
+			System.out.println("Its a draw");
+		}
+		else if(index == 0 &&  computerOption == 1)
+		{
+			System.out.println("Computer wins \n" + option[computerOption] + " beats : " + option[index]);
+		}
+		else if (index == 1 &&  computerOption == 0)
+		{
+			System.out.println("You win \n You : " + option[index] + " beats : " + option[computerOption]);
+		}
+		else if (index == 0 &&  computerOption == 2)
+		{
+			System.out.println("You win \n You : " + option[index] + " beats : " + option[computerOption]);
+		}
+		else if(index == 2 &&  computerOption == 0)
+		{
+			System.out.println("Computer wins \n You : " + option[computerOption] + " beats : " + option[index]);
+		}
+		
+		else if (index == 2 &&  computerOption == 1)
+		{
+			System.out.println("You win \n You : " + option[index] + " beats : " + option[computerOption]);
+		}
+		else if(index == 1 &&  computerOption == 2)
+		{
+			System.out.println("Computer wins \nYou : " + option[computerOption] + " beats : " + option[index]);
+		}
+		else
+		{
+			System.out.println("Illegal value entered");
+		}
+	}
+>>>>>>> a0d16c50b58db7fd4c91f21d228ec42f4562aaec
 }

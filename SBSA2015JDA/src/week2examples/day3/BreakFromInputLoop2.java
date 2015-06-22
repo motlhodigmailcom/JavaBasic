@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package week2examples.day3;
 
 import java.util.Scanner;
@@ -31,4 +32,39 @@ public class BreakFromInputLoop2
 		//mScanner.close();
 		System.out.print("Name : " + name + "\t age : " + age);
 	}
+=======
+package week2examples.day3;
+
+import java.util.Scanner;
+
+public class BreakFromInputLoop2
+{
+	static Scanner mScanner;
+	
+	public static void main(String[] args)
+	{
+		
+		String name="", codeEntered="asdf";
+		int age = 0;
+		
+		mScanner = new Scanner(System.in);
+		
+		for( ;!codeEntered.equals("12345"); )
+		{
+			System.out.print("Please enter a name");
+			name = mScanner.next();
+			System.out.print("Please enter a age");
+			age = mScanner.nextInt();
+			
+			System.out.print("To quit press 12345");
+			codeEntered = mScanner.next();
+			
+			//if(codeEntered.equals("12345"))
+			//	break;
+		}
+		
+		//mScanner.close();
+		System.out.print("Name : " + name + "\t age : " + age);
+	}
+>>>>>>> a0d16c50b58db7fd4c91f21d228ec42f4562aaec
 }

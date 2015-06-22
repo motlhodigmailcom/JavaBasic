@@ -1,0 +1,28 @@
+package week2examples.day2;
+
+import java.util.Random;
+import java.util.Scanner;
+
+public class PaperScissorsRock
+{
+
+	public static void main(String[] args)
+	{
+		String[] option = {"Paper","Scissors","Rock"};
+		
+		System.out.println("Please enter an option");
+		int index = new Scanner(System.in).nextInt();
+		
+		Random mRandom = new Random();
+		
+		int computerOption = mRandom.nextInt(3);
+		System.out.println(computerOption);
+		
+		switch(index)
+		{
+		
+		}
+
+	}
+
+}

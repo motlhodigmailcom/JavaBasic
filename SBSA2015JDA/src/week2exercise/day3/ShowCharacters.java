@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package week2exercise.day3;
 
 public class ShowCharacters
@@ -13,3 +14,20 @@ public class ShowCharacters
 		}
 	}
 }
+=======
+package week2exercise.day3;
+
+public class ShowCharacters
+{
+
+	public static void main(String[] args)
+	{
+		String strWorld = "Java";
+		
+		for (int i = 0; i < strWorld.length(); i++)
+		{
+			System.out.println(strWorld.charAt(i));
+		}
+	}
+}
+>>>>>>> a0d16c50b58db7fd4c91f21d228ec42f4562aaec

@@ -1,0 +1,12 @@
+package week2examples.day2;
+
+public class DecimalFormatClassExample
+{
+
+	public static void main(String[] args)
+	{
+		// TODO Auto-generated method stub
+
+	}
+
+}
