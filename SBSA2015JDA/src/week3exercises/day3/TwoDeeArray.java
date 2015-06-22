@@ -12,14 +12,7 @@ public class TwoDeeArray
 			for(int j = 0; j < myIntArray[0].length; j++)
 			{
 				myIntArray[i][j] = count++;
-			}
-		}
-		
-		for(int i = 0; i < myIntArray.length; i++)
-		{
-			for(int j = 0; j < myIntArray[0].length; j++)
-			{
-				System.out.print(myIntArray[i][j] + " ");
+				System.out.print(myIntArray[i][j] + "\t");
 			}
 			System.out.println();
 		}
